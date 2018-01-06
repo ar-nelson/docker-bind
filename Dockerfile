@@ -1,9 +1,11 @@
 # Bind
 #
 # A simple name server.
+# Modified for Raspberry PI (ARM) support.
 
-FROM phusion/baseimage:0.9.22
-MAINTAINER CosmicQ <cosmicq@cosmicegg.net>
+FROM sdhibit/rpi-baseimage
+MAINTAINER Adam R. Nelson <adam@nels.onl>
+#MAINTAINER CosmicQ <cosmicq@cosmicegg.net>
 
 ENV HOME /root
 ENV LANG en_US.UTF-8
