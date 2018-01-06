@@ -5,10 +5,6 @@ ISC Bind server for general purpose internal name server with webmin for easy ma
 
 **Modified for Raspberry PI (ARM) support**
 
-[![](https://images.microbadger.com/badges/image/cosmicq/docker-bind.svg)](http://microbadger.com/images/cosmicq/docker-bind "Get your own image badge on microbadger.com")
-
-[![](https://images.microbadger.com/badges/version/cosmicq/docker-bind.svg)](http://microbadger.com/images/cosmicq/docker-bind "Get your own version badge on microbadger.com")
-
 ### TL;DR ###
 
 Make the persistent directories
@@ -28,7 +24,7 @@ Here is a sample command using all the options.
     -e PASS=newpass \
     -e NET=172.17.0.0\;192.168.0.0\;10.1.2.0 \
     --name bind --hostname bind \
-    cosmicq/docker-bind
+    ar-nelson/docker-bind-arm
 
 Log into webmin and manage your server
 
